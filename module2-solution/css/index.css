@@ -1,0 +1,80 @@
+h1{
+    text-align: center;
+    font-family:  Arial, Helvetica, serif  ;
+    margin-bottom: 50px;
+}
+div{
+    background-color: rgb(163, 159, 159) ;
+    border: black solid 2px;
+    margin : 10px ;
+    padding: 30px;
+    font-size: large;
+    height: 100%;
+    box-sizing: border-box;
+
+}
+.one,.two,.three{
+    background-color: rgb(163, 159, 159) ;
+    border: black solid 2px;
+    /* align-content: center; */
+    float: right;
+    position: relative;
+    margin: auto; 
+    top : -32px ;
+    right: -31px;
+    padding: 8px 30px;
+    font-family: arial black;
+
+}
+.one{
+    background-color: rgba(211, 151, 162, 0.952);
+}
+    
+.two{
+    background-color: rgb(172, 79, 79);
+    color: white;
+}
+.three{
+    background-color: rgb(187, 187, 113);
+}
+@media only screen and (min-width: 992px) {
+    .col-LG-4 {
+        float: left;
+   }
+
+    .col-LG-4 {
+        width: 25% ;
+    }
+    .col-LG-4{
+        width: 25% ;
+
+    }
+    .col-LG-4{
+        width: 25%;
+
+    }
+}
+@media only screen and ((min-width: 768px) and (max-width : 991px )) {
+    .col-md-6 , .col-md-12
+    {
+        float: left;
+        height: 100%;
+    }
+.col-md-6
+{
+    width: 45%;
+}
+.col-md-6{
+    width: 45%;
+}
+.col-md-12{
+    width: 100%;
+}
+
+}
+
+@media only screen and (max-width : 767px ) {
+    .col-sm-12 {
+        width: 100%;
+    }
+ }
